@@ -3,7 +3,7 @@ package edu.cnm.deepdive;
 
 public class Demo {
 
-  public static void main (String [] args){
+  public static void main (String [] args){//without this, cannot be run as an application
     System.out.println("Hello, Wold!");//System is the name of class in the library.  Out is an object. Prinln is a method and takes arguments.
     long msSinceStartOfTime = System.currentTimeMillis();
     double secondsSinceStartOfTime = msSinceStartOfTime / 1000.0;//literal int value. Double precision value
